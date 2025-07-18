@@ -985,6 +985,11 @@
     </div>
 
     <script>
+
+        if (window.location.pathname === '/index.html') {
+            window.location.replace('/');
+        }
+
         // Mobile Menu Toggle
         const mobileMenuButton = document.getElementById('mobile-menu-button');
         const mobileMenu = document.getElementById('mobile-menu');
